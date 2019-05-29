@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Distraction Log",
+  "description": "Improve productivity by logging your distractions",
+  "version": "0.1",
+  "icons": {
+    "128": "images/icon.png"
+  },
+  "browser_action": {
+    "default_icon": "images/icon.png",
+    "default_popup": "html/popup.html"
+  },
+  "permissions": [
+    "storage",
+    "unlimitedStorage"
+  ],
+  "background": {
+    "scripts": [
+      "js/background.js",
+      "js/db.js"
+    ],
+    "persistent": false
+  }
+}

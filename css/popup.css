@@ -1,0 +1,23 @@
+body {
+    width: 300px;
+}
+
+#frame {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.material-icons {
+    color: #4527a0;
+}
+
+#current_thought {
+    border-bottom: none;
+    outline: none;
+}
+
+.right-justified {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
